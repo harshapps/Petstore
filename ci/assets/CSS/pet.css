@@ -1,0 +1,243 @@
+body{
+	background-color: #FFFFFF;
+}
+
+header h1{
+	/*background-color: #000033;*/
+	/*font-family: Verdana;*/
+	color: #FFFFFF;	
+	background: url("../images/header-image.jpeg");
+	/*background: url("../img/gradientblue.jpg");*/
+}
+
+h1{	
+	line-height: 200%;
+	padding-left: 15px;
+}
+
+h2{
+	color: #3399cc;
+	font-family: Georgia, serif;
+}
+
+li, p {
+	font-family: Verdana;
+	color: #666666;
+}
+
+#rightVerticalPane tr{
+	font-family: Verdana;
+	color: #666666;
+}
+
+nav {
+	background-color: #90C7E3;
+	/*background-color: #FFFFFF;*/
+	font-weight: bold;
+	/*margin: -15px 0px 6px 15px;	*/
+	word-spacing: 0.15em;
+	margin-top: -22px;
+	padding: 5px;
+	/*height: 100% !important;*/
+	line-height: 23px;
+	float:left;
+	height:90%;
+	width:auto;
+	padding: 21px;
+}
+
+nav a{	
+	font-family: Verdana;
+	color: #666666;	
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+}
+
+nav ul{
+	list-style: none;
+}
+
+/*.navElements{	
+    margin: -15px 0px 6px 15px;
+}*/
+
+li{
+	font-family: Verdana;
+}
+
+/* nav li{
+	display: inline;
+} */
+
+#nav{
+	float: left;
+	padding: 20px 10px;	
+}
+
+#wrapper{
+	width: 80%;
+	margin: auto;
+	box-shadow: 5px 5px 5px black;
+}
+
+footer{
+	font-size: 0.70em;
+	font-style: italic;
+	text-align: center; 
+}
+
+#bannerImageHome{
+	width: 100%;
+}
+
+#centerBody{
+	margin-left: 15px;	
+}
+
+#centerBody a:link{
+	text-decoration: none;
+}
+
+#leftVerticalPane{
+	float: left;		
+	height: 580px;
+	display: table;
+	border-spacing: 0px;
+}
+
+#rightVerticalPane{
+	margin-left: 149px;
+	margin-top: -23px;	
+	display: table;
+	border-spacing: 0px;
+}
+
+/* ContactUs Page CSS */
+
+#contactUsForm .colspace25{	
+	float: left;
+	width: 25%;
+}
+
+#contactUsForm .colspace75{	
+	float: left;
+	width: 75%;
+}
+
+#contactUsForm .row::after{
+	content: "";
+	display: table;
+	/* clear: both; */
+}
+
+#contactUsForm td input[type="text"], textarea, input[type="password"]{
+	margin-left: 100px;
+}
+
+.loginPageNav nav {
+	height: 76%;
+}
+.servicePageNav nav {
+	height: 89.4%;
+}
+.contactUsNav nav {
+	height: 100.6%;
+}
+.indexNav nav{
+	height: 98.8%;
+}
+.aboutUsNav nav{
+	height: 88.2%;
+}
+.clientNav nav{
+	height: 85%;
+}
+.myClientNav nav{
+	height: 73.2%;
+}
+.myClientChangePasswordNav nav{
+	height: 82.4%;
+}
+.myBusinessChangePasswordNav nav{
+	height: 82.4%;
+}
+.myBusinessPageNav nav{
+	height: 73.2%;
+}
+#rightVerticalPane img{
+	width: 96.2%;
+}
+
+.addValueToElement{
+	border: 1px solid red;
+}
+
+.myClientRightVerNav img {
+	width: 88.8% !important;
+}
+
+.myClientChangePasswordRightVerNav img{
+	width: 89% !important;
+}
+
+.myBusinessChangePasswordRightVerNav img{
+	width: 89% !important;
+}
+
+.myBusinessRightVerNav img{
+	width: 88.8% !important;
+}
+
+@media only screen and (max-width: 1024px){
+	#rightVerticalPane{
+		margin-left: 175px;
+    	margin-top: -23px;
+    	display: block;
+    	border-spacing: 0px;		
+	}
+
+	#contactUsForm td input[type="text"], textarea, input[type="password"] {
+		margin-left: 0px;
+		width: 79px;
+	}
+
+	nav a{
+		display:inline-block;
+		text-decoration: none;
+		margin-right: 6px;
+	}
+}
+
+@media only screen and (max-width: 720px){
+	#rightVerticalPane img {
+		width: 96.2%;
+	}
+
+	.myClientRightVerNav img {
+		width: 88.8% !important;
+	}
+
+	.myClientChangePasswordRightVerNav img{
+		width: 89% !important;
+	}
+
+	.myBusinessChangePasswordRightVerNav img{
+		width: 89% !important;
+	}
+
+	.myBusinessRightVerNav img{
+		width: 88.8% !important;
+	}
+
+	nav a{
+		display:inline-block;
+		text-decoration: none;
+		margin-right: 6px;
+	}
+}
