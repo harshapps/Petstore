@@ -1,8 +1,8 @@
 <?php
 	$hostname = "localhost";
-	$username = "phanisre_root";
+	$username = "";
 	$password = "";
-	$databasename = "phanisre_wdm";
+	$databasename = "";
 	
  	$connection = mysqli_connect($hostname, $username, $password, $databasename); 
 
